@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    color: #505962;
+}
+
+/* Navigation */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 1.5rem;
+}
+
+.navbar-nav li {
+    padding-left: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-top: 0.8rem;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #34b3f1;
+}
+/* .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    /* justify-content: space-between; 
+} */
+
+/* Carousel Caption */
+.carsl-shdo {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.bg-custom {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: 0.6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+/* ---------------- Newsletter --------- */
+
+.color-news{
+    background-color: #8ED7FA !important;
+}
+
+.box-btn:hover{
+    background-color: #8ED7FA !important;
+
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+
+    .news-cont {
+        /* height: 50%; */
+        position: relative;
+        z-index: 1;
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    }
+}
+
+.box-col{
+    box-shadow: 0 1rem  1rem rgba(0, 0, 0, 0.258);
+}
+
+/* --- Fundamentals ----- */
+
+.btn-light:hover{
+
+    background-color: #8ED7FA;
+
+}
+
+.corse{
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.5);
+
+}
+
+
+
